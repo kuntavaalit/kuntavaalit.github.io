@@ -1,17 +1,10 @@
 
-/*
-body {
-    background-color: #eeeeee;
-}
-*/
-
 #app {
     background-color: #ffffff;
     font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
     max-width: 600px;
     margin: 0 auto;
     padding: 50px 10px 10px 10px;
-    /*-webkit-font-smoothing: antialiased;*/
     font-size: 1.125em;
     color: #333;
     line-height: 1.5em;
@@ -114,15 +107,12 @@ span.box.right {
 
 div.chart {
     width: 300px;
-    /*height: 200px;*/
     margin: 0 auto;
 }
-
 
 svg {
     border: 1px solid lightgray;
 }    
-
 
 rect {
     stroke: black;
@@ -131,8 +121,6 @@ rect {
 
 rect.left {
     fill: #ff8888;
-    /*fill-opacity: 0.1;*/
-    /*stroke-opacity: 0.9;*/
 }
 
 rect.right {
