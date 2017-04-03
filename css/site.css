@@ -79,10 +79,6 @@ select {
     }
 }
 
-p.question {
-    cursor: pointer;
-}
-
 div.intro {
     padding-top: 10px;
 }
@@ -117,7 +113,6 @@ span.box.right {
 div.chart {
     width: 300px;
     margin: 0 auto;
-    cursor: pointer;
 }
 
 svg {
