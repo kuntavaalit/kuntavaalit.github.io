@@ -10,6 +10,11 @@
     line-height: 1.5em;
 }
 
+div.loading {
+    text-align: center;
+    font-style: italic;
+}
+
 h1, h2, h3 {
     text-align: center;
     color: #000;
