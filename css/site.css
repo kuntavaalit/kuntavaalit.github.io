@@ -83,10 +83,6 @@ p.question {
     cursor: pointer;
 }
 
-p.question:hover {
-    text-decoration: underline;
-}
-
 div.intro {
     padding-top: 10px;
 }
@@ -128,10 +124,6 @@ svg {
     border: 1px solid lightgray;
 }    
 
-svg:hover {
-    border: 1px solid #aaaaaa;
-}
-
 rect {
     stroke: black;
     stroke-width: 1;
@@ -159,8 +151,4 @@ div.more {
     color: #ffffff;
     text-align: center;
     cursor: pointer;
-}
-
-div.more:hover {
-    background-color: #777777;
 }
