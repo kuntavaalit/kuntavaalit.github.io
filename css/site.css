@@ -6,7 +6,7 @@
     margin: 0 auto;
     padding: 50px 10px 10px 10px;
     font-size: 1.125em;
-    color: #333;
+    color: #333333;
     line-height: 1.5em;
 }
 
@@ -17,7 +17,7 @@ div.loading {
 
 h1, h2, h3 {
     text-align: center;
-    color: #000;
+    color: black;
 }
 
 h1 {
@@ -79,6 +79,14 @@ select {
     }
 }
 
+p.question {
+    cursor: pointer;
+}
+
+p.question:hover {
+    text-decoration: underline;
+}
+
 div.intro {
     padding-top: 10px;
 }
@@ -113,11 +121,16 @@ span.box.right {
 div.chart {
     width: 300px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 svg {
     border: 1px solid lightgray;
 }    
+
+svg:hover {
+    border: 1px solid #aaaaaa;
+}
 
 rect {
     stroke: black;
@@ -146,4 +159,8 @@ div.more {
     color: #ffffff;
     text-align: center;
     cursor: pointer;
+}
+
+div.more:hover {
+    background-color: #777777;
 }
