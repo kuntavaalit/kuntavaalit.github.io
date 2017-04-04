@@ -105,40 +105,8 @@ span.box.left {
     background-color: #ff8888;
 }
 
-
 span.box.right {
     background-color: #8888ff;
-}
-
-div.chart {
-    width: 300px;
-    margin: 0 auto;
-}
-
-svg {
-    border: 1px solid lightgray;
-}    
-
-rect {
-    stroke: black;
-    stroke-width: 1;
-}
-
-rect.left {
-    fill: #ff8888;
-}
-
-rect.right {
-    fill: #8888ff;
-}
-
-svg text.count {
-    font-size: 12px;
-}
-
-svg text.label {
-    font-size: 15px;
-    font-style: italic;
 }
 
 div.more {
@@ -146,4 +114,73 @@ div.more {
     color: #ffffff;
     text-align: center;
     cursor: pointer;
+}
+
+/* Likert plots */
+
+div.likert {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.likert svg {
+    border: 1px solid lightgray;
+}
+
+.likert rect {
+    stroke: black;
+    stroke-width: 1;
+}
+
+.likert line {
+    stroke: gray;
+    stroke-width: 1;
+}
+
+.likert text.count {
+    font-size: 12px;
+}
+
+.likert text.legend {
+    font-size: 14px;
+}
+
+.likert rect.left.cat0 {
+    fill: rgb(255,220,220);
+}
+
+.likert rect.right.cat0 {
+    fill: rgb(220,220,255);
+}
+
+.likert rect.left.cat1 {
+    fill: rgb(234,181,181);
+}
+
+.likert rect.right.cat1 {
+    fill: rgb(181,181,234);
+}
+
+.likert rect.left.cat2 {
+    fill: rgb(214,148,148);
+}
+
+.likert rect.right.cat2 {
+    fill: rgb(148,148,214);
+}
+
+.likert rect.left.cat3 {
+    fill: rgb(196,122,122);
+}
+
+.likert rect.right.cat3 {
+    fill: rgb(122,122,196);
+}
+
+.likert rect.left.cat4 {
+    fill: rgb(180,100,100);
+}
+
+.likert rect.right.cat4 {
+    fill: rgb(100,100,180);
 }
